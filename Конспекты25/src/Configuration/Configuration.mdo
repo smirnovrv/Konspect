@@ -17,7 +17,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ИП Смирнов Роман Викторович 661300789600</vendor>
-  <version>1.5.5</version>
+  <version>1.6.1</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -41,9 +41,14 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonPictures>CommonPicture.ФорматированиеШрифтЖирный</commonPictures>
+  <commonPictures>CommonPicture.ФорматированиеШрифтЗачеркнутый</commonPictures>
+  <commonPictures>CommonPicture.ФорматированиеШрифтКурсив</commonPictures>
+  <commonPictures>CommonPicture.ФорматированиеШрифтПодчеркнутый</commonPictures>
   <catalogs>Catalog.Заметки</catalogs>
   <catalogs>Catalog.ЗаметкиФайлы</catalogs>
   <catalogs>Catalog.Лекции</catalogs>
   <catalogs>Catalog.Темы</catalogs>
   <catalogs>Catalog.Тэги</catalogs>
+  <enums>Enum.ЗаголовкиHTML</enums>
 </mdclass:Configuration>

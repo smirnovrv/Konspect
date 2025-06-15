@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de5c7f43-99cc-46e1-a6d6-6029e3d023da">
+  <producedTypes>
+    <refType typeId="25eb5681-ee07-4877-952b-1f533bc18bda" valueTypeId="88c6dde9-5914-4c63-ad5b-8edb9f267851"/>
+    <listType typeId="802922b5-b3a8-46b9-9e92-b9e43931271d" valueTypeId="0d629dbc-8425-4dcf-8aca-d25b34725c0b"/>
+    <managerType typeId="f895d8ce-77a3-403b-89f6-06e442ea9c03" valueTypeId="1bf09f81-ae61-473a-b24e-209634fa8753"/>
+  </producedTypes>
+  <name>ЗаголовкиHTML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заголовки HTML</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b56b0f9d-807f-4931-b95b-0d4a44fea6e9">
+    <name>H1</name>
+    <synonym>
+      <key>ru</key>
+      <value>ур 1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d04949bb-ed13-4d5b-9417-ea7c597ccdf0">
+    <name>H2</name>
+    <synonym>
+      <key>ru</key>
+      <value>ур 2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55d98d1d-6426-4b35-9d53-8401a1aa92f9">
+    <name>H3</name>
+    <synonym>
+      <key>ru</key>
+      <value>ур 3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93885fab-bd9a-4d66-9c64-3c18f9c21516">
+    <name>H4</name>
+    <synonym>
+      <key>ru</key>
+      <value>ур 4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60a97f0b-1e42-4b69-9f92-9fdae64e9df8">
+    <name>H5</name>
+    <synonym>
+      <key>ru</key>
+      <value>ур 5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d9412ce-1727-460f-83c0-6dee22469307">
+    <name>H6</name>
+    <synonym>
+      <key>ru</key>
+      <value>ур 6</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
