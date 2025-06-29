@@ -838,11 +838,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>ТекстСтроки</name>
-        <id>69</id>
-        <title>
-          <key>ru</key>
-          <value>Результат</value>
-        </title>
+        <id>78</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -851,9 +847,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>ТекстСтроки</segments>
         </dataPath>
+        <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>ТекстСтрокиРасширеннаяПодсказка</name>
-          <id>71</id>
+          <id>80</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -863,6 +860,50 @@
         </extendedTooltip>
         <contextMenu>
           <name>ТекстСтрокиКонтекстноеМеню</name>
+          <id>79</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <height>5</height>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <multiLine>true</multiLine>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ТекстСтрокиHTML</name>
+        <id>69</id>
+        <title>
+          <key>ru</key>
+          <value>Результат</value>
+        </title>
+        <visible>true</visible>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТекстСтрокиHTML</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ТекстСтрокиHTMLРасширеннаяПодсказка</name>
+          <id>71</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ТекстСтрокиHTMLКонтекстноеМеню</name>
           <id>70</id>
           <autoFill>true</autoFill>
         </contextMenu>
@@ -874,8 +915,9 @@
         <extInfo xsi:type="form:HtmlFieldExtInfo">
           <width>50</width>
           <autoMaxWidth>true</autoMaxWidth>
-          <height>11</height>
+          <height>8</height>
           <autoMaxHeight>true</autoMaxHeight>
+          <maxHeight>15</maxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
         </extInfo>
@@ -1020,12 +1062,30 @@
     </edit>
   </attributes>
   <attributes>
+    <name>ТекстСтрокиHTML</name>
+    <title>
+      <key>ru</key>
+      <value>Текст строки HTML</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
     <name>ТекстСтроки</name>
     <title>
       <key>ru</key>
       <value>Текст строки</value>
     </title>
-    <id>4</id>
+    <id>5</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -1166,19 +1226,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаЗнакБольше</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>Команда1</name>
-    <id>8</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>Команда1</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
