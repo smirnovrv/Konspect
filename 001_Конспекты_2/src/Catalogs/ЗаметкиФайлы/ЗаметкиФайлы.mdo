@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.ЗаметкиФайлы.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="534fec5e-e463-4cbb-b206-ae97b715843c">
     <name>ВладелецФайла</name>
     <synonym>
@@ -94,4 +95,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="b3c29b26-f02e-489c-95d7-ac6e28d3741f">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

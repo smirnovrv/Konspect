@@ -231,11 +231,37 @@
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
+      <name>КомандаДобавитьКартинку</name>
+      <id>83</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>КомандаДобавитьКартинкуРасширеннаяПодсказка</name>
+        <id>84</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Form.Command.КомандаДобавитьКартинку</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
       <name>Команда1ЗагрузитьКартинку</name>
       <id>81</id>
       <title>
         <key>ru</key>
-        <value>Загрузить картинку</value>
+        <value>Загрузить, добавить картинку</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -253,7 +279,7 @@
         </extInfo>
       </extendedTooltip>
       <type>UsualButton</type>
-      <commandName>Form.Command.Команда1ЗагрузитьКартинку</commandName>
+      <commandName>Form.Command.КомандаЗагрузитьКартинку</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1265,7 +1291,7 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>Команда1ЗагрузитьКартинку</name>
+    <name>КомандаЗагрузитьКартинку</name>
     <title>
       <key>ru</key>
       <value>Загрузить</value>
@@ -1277,6 +1303,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>Команда1ЗагрузитьКартинку</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КомандаДобавитьКартинку</name>
+    <title>
+      <key>ru</key>
+      <value>Добавить картинку</value>
+    </title>
+    <id>9</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаДобавитьКартинку</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
