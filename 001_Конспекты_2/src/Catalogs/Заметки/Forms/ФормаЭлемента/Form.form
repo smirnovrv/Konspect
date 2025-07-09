@@ -1302,7 +1302,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>Команда1ЗагрузитьКартинку</name>
+        <name>КомандаЗагрузитьКартинку</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
