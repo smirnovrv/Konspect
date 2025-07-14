@@ -574,6 +574,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Поля.Ширина</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ПоляШиринаПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ПоляШиринаРасширеннаяПодсказка</name>
           <id>87</id>
