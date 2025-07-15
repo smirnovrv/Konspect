@@ -618,6 +618,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Поля.Высота</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ПоляВысотаПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ПоляВысотаРасширеннаяПодсказка</name>
           <id>90</id>
