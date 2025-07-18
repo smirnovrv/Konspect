@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЗаметкиФайлы.Form.ФормаЭлемента</defaultObjectForm>
   <defaultChoiceForm>Catalog.ЗаметкиФайлы.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="534fec5e-e463-4cbb-b206-ae97b715843c">
     <name>ВладелецФайла</name>
@@ -95,11 +96,36 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="d11e753e-ff54-4000-bb4b-2a8eef76bcad">
+    <name>Base64Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Base64 данные</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="b3c29b26-f02e-489c-95d7-ac6e28d3741f">
     <name>ФормаВыбора</name>
     <synonym>
       <key>ru</key>
       <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bbc487d2-07d0-45bc-9c88-93e969c8595d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
