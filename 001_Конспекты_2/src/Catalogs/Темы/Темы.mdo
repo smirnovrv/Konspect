@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Темы.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="f0e38bf0-e21d-4bbe-ad0c-d04024d0e8d1">
     <name>Лекция</name>
     <synonym>
@@ -46,4 +47,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="caa5a01d-595e-4091-8c6b-0bb10da70f97">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
