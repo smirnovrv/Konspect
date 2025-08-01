@@ -166,6 +166,48 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="be85e2d3-00f7-4355-b9a1-ce4bb88a962d">
+    <producedTypes>
+      <objectType typeId="7a1a5772-a585-4d19-a6e7-84cb9ea9fc1a" valueTypeId="c3a078a3-f4a0-4030-8e38-6ad2890ffa12"/>
+      <rowType typeId="d75ef9bf-40af-495a-8b5e-a5bb44529fde" valueTypeId="198a8fd8-32ff-4a4f-91f8-07cf83f1b81b"/>
+    </producedTypes>
+    <name>Примечания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+    <attributes uuid="92ff95f6-72a1-4eb5-b203-fc92ee22bd40">
+      <name>Вид</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВидыПримечаний</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9fa42377-9178-446a-8eb7-2924eda4a3f1">
+      <name>Текстовка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текстовка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>256</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="9c7f54f7-9706-45b4-afb2-fb113e5e9514">
     <name>ФормаЭлемента</name>
     <synonym>
