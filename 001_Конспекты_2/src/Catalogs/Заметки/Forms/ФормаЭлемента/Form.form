@@ -771,6 +771,50 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:HtmlFieldExtInfo">
+        <handlers>
+          <event>OnClick</event>
+          <name>ОсновнойТекстПриНажатии</name>
+        </handlers>
+        <width>50</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <height>10</height>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ПредпросмотрHTML</name>
+      <id>97</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПредпросмотрHTML</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ПредпросмотрHTMLРасширеннаяПодсказка</name>
+        <id>99</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПредпросмотрHTMLКонтекстноеМеню</name>
+        <id>98</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>HTMLDocumentField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:HtmlFieldExtInfo">
         <width>50</width>
         <autoMaxWidth>true</autoMaxWidth>
         <height>10</height>
@@ -1176,7 +1220,7 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
+      <group>AlwaysHorizontal</group>
       <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
@@ -1195,12 +1239,12 @@
     <name>ОбработкаВыбора</name>
   </handlers>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
@@ -1287,6 +1331,24 @@
       <value>Текст строки</value>
     </title>
     <id>5</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПредпросмотрHTML</name>
+    <title>
+      <key>ru</key>
+      <value>Предпросмотр</value>
+    </title>
+    <id>6</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -1500,8 +1562,24 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>Команда1</name>
+    <name>КомандаОписание</name>
+    <title>
+      <key>ru</key>
+      <value>(О)</value>
+    </title>
     <id>12</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Описание и определение</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>Команда2</name>
+    <id>13</id>
     <use>
       <common>true</common>
     </use>
