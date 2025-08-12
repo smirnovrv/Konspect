@@ -749,67 +749,6 @@
           <name>Группа2</name>
           <id>143</id>
           <items xsi:type="form:FormGroup">
-            <name>ГруппаПримечания</name>
-            <id>108</id>
-            <items xsi:type="form:Button">
-              <name>КомандаОписание</name>
-              <id>110</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>КомандаОписаниеРасширеннаяПодсказка</name>
-                <id>111</id>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <type>UsualButton</type>
-              <commandName>Form.Command.КомандаОписание</commandName>
-              <representation>Auto</representation>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <placementArea>UserCmds</placementArea>
-              <representationInContextMenu>Auto</representationInContextMenu>
-            </items>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Примечания</value>
-            </title>
-            <extendedTooltip>
-              <name>ГруппаПримечанияРасширеннаяПодсказка</name>
-              <id>109</id>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <type>UsualGroup</type>
-            <extInfo xsi:type="form:UsualGroupExtInfo">
-              <group>Vertical</group>
-              <behavior>Collapsible</behavior>
-              <collapsed>true</collapsed>
-              <representation>WeakSeparation</representation>
-              <showLeftMargin>true</showLeftMargin>
-              <united>true</united>
-              <showTitle>true</showTitle>
-              <throughAlign>Auto</throughAlign>
-              <currentRowUse>Auto</currentRowUse>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormGroup">
             <name>КоманданаяПанельФорматированияТекста</name>
             <id>47</id>
             <items xsi:type="form:Button">
@@ -1043,6 +982,58 @@
                 <representation>Auto</representation>
               </extInfo>
             </items>
+            <items xsi:type="form:FormGroup">
+              <name>ГруппаПримечания</name>
+              <id>149</id>
+              <items xsi:type="form:Button">
+                <name>КомандаОписание</name>
+                <id>110</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>КомандаОписаниеРасширеннаяПодсказка</name>
+                  <id>111</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.КомандаОписание</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Примечания</value>
+              </title>
+              <extendedTooltip>
+                <name>ГруппаПримечанияРасширеннаяПодсказка</name>
+                <id>150</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <type>Popup</type>
+              <extInfo xsi:type="form:PopupGroupExtInfo">
+                <representation>Auto</representation>
+              </extInfo>
+            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1148,6 +1139,7 @@
             <name>ТекстСтрокиHTML</name>
             <id>69</id>
             <visible>true</visible>
+            <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
@@ -1155,6 +1147,10 @@
               <segments>ТекстСтрокиHTML</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ТекстСтрокиHTMLПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ТекстСтрокиHTMLРасширеннаяПодсказка</name>
               <id>71</id>
@@ -1176,6 +1172,10 @@
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:HtmlFieldExtInfo">
+              <handlers>
+                <event>OnClick</event>
+                <name>ОсновнойТекстПриНажатии</name>
+              </handlers>
               <width>50</width>
               <autoMaxWidth>true</autoMaxWidth>
               <height>5</height>
