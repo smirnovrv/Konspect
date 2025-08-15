@@ -83,10 +83,10 @@
       <objectType typeId="0b0266ad-9ac0-4700-ada4-1f8d975b4b64" valueTypeId="29d9324f-9bb1-4a4d-94ee-01242f716eba"/>
       <rowType typeId="cd38a55a-6d70-4861-9457-8816615bf836" valueTypeId="f0921cae-dbcd-442b-84e7-a85dac651c96"/>
     </producedTypes>
-    <name>Поля</name>
+    <name>Состав</name>
     <synonym>
       <key>ru</key>
-      <value>Поля</value>
+      <value>Состав</value>
     </synonym>
     <attributes uuid="cf531f0d-56ac-4ef1-b940-08fc35605450">
       <name>Значение</name>

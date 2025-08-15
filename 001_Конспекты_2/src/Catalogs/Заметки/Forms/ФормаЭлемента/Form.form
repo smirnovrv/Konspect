@@ -332,7 +332,7 @@
       <name>ГруппаПоля</name>
       <id>139</id>
       <items xsi:type="form:Table">
-        <name>Поля</name>
+        <name>Состав</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -340,7 +340,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Поля</segments>
+          <segments>Объект.Состав</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
@@ -352,7 +352,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Поля.LineNumber</segments>
+            <segments>Объект.Состав.LineNumber</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПоляНомерСтрокиРасширеннаяПодсказка</name>
@@ -392,7 +392,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Поля.Значение</segments>
+            <segments>Объект.Состав.Значение</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПоляЗначениеРасширеннаяПодсказка</name>
@@ -432,7 +432,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Поля.Тэг</segments>
+            <segments>Объект.Состав.Тэг</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПоляТэгРасширеннаяПодсказка</name>
@@ -472,7 +472,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Поля.Картинка</segments>
+            <segments>Объект.Состав.Картинка</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПоляКартинкаРасширеннаяПодсказка</name>
@@ -512,7 +512,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Поля.Ширина</segments>
+            <segments>Объект.Состав.Ширина</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -556,7 +556,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Поля.Высота</segments>
+            <segments>Объект.Состав.Высота</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -592,7 +592,7 @@
           </extInfo>
         </items>
         <autoCommandBar>
-          <name>ПоляКоманднаяПанель</name>
+          <name>СоставКоманднаяПанель</name>
           <id>19</id>
           <horizontalAlign>Left</horizontalAlign>
         </autoCommandBar>
@@ -601,10 +601,10 @@
           <name>ПоляПриАктивизацииСтроки</name>
         </handlers>
         <searchStringAddition>
-          <name>ПоляСтрокаПоиска</name>
+          <name>СоставСтрокаПоиска</name>
           <id>22</id>
           <extendedTooltip>
-            <name>ПоляСтрокаПоискаРасширеннаяПодсказка</name>
+            <name>СоставСтрокаПоискаРасширеннаяПодсказка</name>
             <id>24</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -614,20 +614,20 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПоляСтрокаПоискаКонтекстноеМеню</name>
+            <name>СоставСтрокаПоискаКонтекстноеМеню</name>
             <id>23</id>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>Поля</source>
+          <source>Состав</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
         </searchStringAddition>
         <viewStatusAddition>
-          <name>ПоляСостояниеПросмотра</name>
+          <name>СоставСостояниеПросмотра</name>
           <id>28</id>
           <extendedTooltip>
-            <name>ПоляСостояниеПросмотраРасширеннаяПодсказка</name>
+            <name>СоставСостояниеПросмотраРасширеннаяПодсказка</name>
             <id>30</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -637,21 +637,21 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПоляСостояниеПросмотраКонтекстноеМеню</name>
+            <name>СоставСостояниеПросмотраКонтекстноеМеню</name>
             <id>29</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>Поля</source>
+          <source>Состав</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
-          <name>ПоляУправлениеПоиском</name>
+          <name>СоставУправлениеПоиском</name>
           <id>25</id>
           <extendedTooltip>
-            <name>ПоляУправлениеПоискомРасширеннаяПодсказка</name>
+            <name>СоставУправлениеПоискомРасширеннаяПодсказка</name>
             <id>27</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -661,18 +661,18 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПоляУправлениеПоискомКонтекстноеМеню</name>
+            <name>СоставУправлениеПоискомКонтекстноеМеню</name>
             <id>26</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>Поля</source>
+          <source>Состав</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ПоляРасширеннаяПодсказка</name>
+          <name>СоставРасширеннаяПодсказка</name>
           <id>21</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -682,7 +682,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ПоляКонтекстноеМеню</name>
+          <name>СоставКонтекстноеМеню</name>
           <id>20</id>
           <autoFill>true</autoFill>
         </contextMenu>
