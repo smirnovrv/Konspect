@@ -47,6 +47,46 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="cc2487aa-b7ef-475b-be67-13ca7c398020">
+    <name>ЗаполнятьАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>авт.</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="793839f0-45b9-473a-8604-489b1a53b6a8">
+    <producedTypes>
+      <objectType typeId="b3060c40-c0a6-4b28-9631-afe622629f74" valueTypeId="b36066b6-d680-4b4e-8ed4-fa46da782b4b"/>
+      <rowType typeId="9d2d9a13-d3a9-4210-8a99-18509736791b" valueTypeId="f0ea62e0-f636-4fbe-b4ce-8404fbc43feb"/>
+    </producedTypes>
+    <name>Заметки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заметки</value>
+    </synonym>
+    <attributes uuid="308a07ef-f402-49c3-bae1-4dc8f5ed8293">
+      <name>Заметка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заметка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Заметки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="caa5a01d-595e-4091-8c6b-0bb10da70f97">
     <name>ФормаЭлемента</name>
     <synonym>
