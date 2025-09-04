@@ -211,7 +211,7 @@
       <id>43</id>
       <title>
         <key>ru</key>
-        <value>Добавить текст</value>
+        <value>Текст</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2492,6 +2492,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаH6</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КомандаДобавитьТекст</name>
+    <title>
+      <key>ru</key>
+      <value>Добавить</value>
+    </title>
+    <id>21</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаДобавитьТекст</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
