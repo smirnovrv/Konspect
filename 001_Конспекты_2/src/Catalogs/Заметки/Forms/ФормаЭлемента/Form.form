@@ -1322,10 +1322,6 @@
               <segments>ТекстСтрокиHTML</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
-            <handlers>
-              <event>OnChange</event>
-              <name>ТекстСтрокиHTMLПриИзменении</name>
-            </handlers>
             <extendedTooltip>
               <name>ТекстСтрокиHTMLРасширеннаяПодсказка</name>
               <id>71</id>
