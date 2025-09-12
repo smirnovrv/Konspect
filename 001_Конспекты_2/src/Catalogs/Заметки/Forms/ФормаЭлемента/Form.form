@@ -1983,24 +1983,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ВведенныйТекст</name>
-    <title>
-      <key>ru</key>
-      <value>Введенный текст</value>
-    </title>
-    <id>3</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ТекстСтрокиHTML</name>
     <title>
       <key>ru</key>
@@ -2046,6 +2028,26 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>НомерТекущейСтроки</name>
+    <title>
+      <key>ru</key>
+      <value>Номер текущей строки</value>
+    </title>
+    <id>8</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>
