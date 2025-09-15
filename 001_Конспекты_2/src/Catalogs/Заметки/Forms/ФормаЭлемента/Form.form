@@ -2056,6 +2056,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ЭтоЗаголовок</name>
+    <title>
+      <key>ru</key>
+      <value>Это заголовок</value>
+    </title>
+    <id>9</id>
+    <valueType>
+      <types>CatalogRef.Тэги</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>КомандаВвестиТекст</name>
     <title>
