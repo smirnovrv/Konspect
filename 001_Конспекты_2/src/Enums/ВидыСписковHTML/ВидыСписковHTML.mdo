@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1ef0926-51df-475a-8182-47410e19a1bd">
+  <producedTypes>
+    <refType typeId="07e94771-f430-4678-85cc-be7a7745eb47" valueTypeId="4f8d1530-98cb-408c-9aa3-96a78cf2097c"/>
+    <listType typeId="d7d3a0bb-b3b4-459e-bc83-6b621b183c67" valueTypeId="71a0708e-5994-4ca5-8540-605459f74126"/>
+    <managerType typeId="ae609fb8-a8c0-47cc-8e67-b7bee9e9039e" valueTypeId="e1848829-7e26-4f87-9f66-52a5257ed361"/>
+  </producedTypes>
+  <name>ВидыСписковHTML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды списков HTML</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1411389d-e577-46bb-b83f-893bdc5cb518">
+    <name>Маркированный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркированный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5b5168c-60e6-4644-a593-c47c7fe661bf">
+    <name>Нумерованный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нумерованный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23926bad-c4f5-44c2-94b2-4431e94978df">
+    <name>Определений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Определений</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

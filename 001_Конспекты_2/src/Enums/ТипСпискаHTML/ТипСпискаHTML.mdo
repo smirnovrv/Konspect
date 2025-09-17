@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a8f497f-e9da-4614-80ea-9f1714fef731">
+  <producedTypes>
+    <refType typeId="a964a3b6-d32a-400b-ae22-7b5a0b156587" valueTypeId="4f708d9a-4060-48ae-8fbf-54c13ba691bc"/>
+    <listType typeId="339f9874-b48f-43dd-8d07-7f1d94bbd2fe" valueTypeId="001d854a-2365-49c8-9769-514030a98ae4"/>
+    <managerType typeId="87efc170-ab96-413b-a63f-3aa0d76ecf9c" valueTypeId="d0e029bf-b8c2-4d9f-9a80-3704459c5d86"/>
+  </producedTypes>
+  <name>ТипСпискаHTML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип списка HTML</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eaad146f-9a9c-49e6-a409-cc3e124f6984">
+    <name>_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1</value>
+    </synonym>
+    <comment>По умолчанию</comment>
+  </enumValues>
+  <enumValues uuid="38f61263-af68-4290-a27b-a382a541cd85">
+    <name>A</name>
+    <synonym>
+      <key>ru</key>
+      <value>A</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0cc22f04-0364-4546-bdc2-d97f751d7ef6">
+    <name>_a</name>
+    <synonym>
+      <key>ru</key>
+      <value>a</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b182bed-fd48-44fa-91ce-af0db73ccdb7">
+    <name>I</name>
+    <synonym>
+      <key>ru</key>
+      <value>I</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b8c286ac-7997-44ea-bacf-df84ea8050be">
+    <name>_i</name>
+    <synonym>
+      <key>ru</key>
+      <value>i</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
