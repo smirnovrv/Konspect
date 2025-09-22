@@ -113,6 +113,20 @@
         <value>000000012</value>
       </code>
     </items>
+    <items id="ad332f93-a775-4472-99e5-771f4f86b9e9">
+      <name>ul</name>
+      <description>ul</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+    <items id="ee4706bc-56e0-45a6-9a02-f753e873f902">
+      <name>ol</name>
+      <description>ol</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

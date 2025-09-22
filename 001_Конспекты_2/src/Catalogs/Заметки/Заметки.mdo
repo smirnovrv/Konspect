@@ -233,10 +233,10 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="780fb5c6-61f0-4a90-82b9-21d5a06201ae">
-    <name>ФормаРедактирования</name>
+    <name>ФормаВводаСписка</name>
     <synonym>
       <key>ru</key>
-      <value>Форма редактирования</value>
+      <value>Форма ввода списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
