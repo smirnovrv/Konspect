@@ -259,4 +259,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="26fedf33-662c-4607-b563-d0324b28903c">
+    <name>ФормаВводаТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода таблицы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
