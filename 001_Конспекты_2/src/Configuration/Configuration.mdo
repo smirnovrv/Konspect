@@ -47,6 +47,7 @@
   <commonPictures>CommonPicture.ВставитьКартинкуPNG</commonPictures>
   <commonPictures>CommonPicture.ЗагрузкаФайла</commonPictures>
   <commonPictures>CommonPicture.ЗагрузкаФайла100</commonPictures>
+  <commonModules>CommonModule.ОсновнойТекстHTMLСервер</commonModules>
   <catalogs>Catalog.Заметки</catalogs>
   <catalogs>Catalog.ЗаметкиФайлы</catalogs>
   <catalogs>Catalog.Лекции</catalogs>
