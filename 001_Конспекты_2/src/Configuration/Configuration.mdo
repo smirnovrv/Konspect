@@ -3,7 +3,7 @@
   <name>Конспекты25</name>
   <synonym>
     <key>ru</key>
-    <value>Конспекты 25 (1.7.2.3)</value>
+    <value>Конспекты 25 (1.7.2.5)</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ae0b3130-b727-471c-adc7-29fc8d00ebd8"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e50897f9-bc81-499c-8b54-7cceb9e893f2"/>
@@ -16,7 +16,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ИП Смирнов Роман Викторович 661300789600</vendor>
-  <version>1.7.2.3</version>
+  <version>1.7.2.5</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
