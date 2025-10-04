@@ -62,6 +62,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="b982f43d-973f-4234-8d92-f48ba02a3c5d">
+    <name>ОсновнойТекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="793839f0-45b9-473a-8604-489b1a53b6a8">
     <producedTypes>
       <objectType typeId="b3060c40-c0a6-4b28-9631-afe622629f74" valueTypeId="b36066b6-d680-4b4e-8ed4-fa46da782b4b"/>
