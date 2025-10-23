@@ -282,6 +282,35 @@
     <autoCommandBar>
       <name>ТаблицаСтрокКоманднаяПанель</name>
       <id>34</id>
+      <items xsi:type="form:Button">
+        <name>ТаблицаСтрокДобавить</name>
+        <id>52</id>
+        <title>
+          <key>ru</key>
+          <value>Добавить строку</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ТаблицаСтрокДобавитьРасширеннаяПодсказка</name>
+          <id>53</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Item.ТаблицаСтрок.StandardCommand.Add</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
@@ -399,6 +428,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗакрыть</name>
       <id>12</id>
+      <title>
+        <key>ru</key>
+        <value>Добавить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
