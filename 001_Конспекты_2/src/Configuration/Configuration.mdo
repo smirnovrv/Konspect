@@ -48,6 +48,7 @@
   <commonPictures>CommonPicture.ЗагрузкаФайла</commonPictures>
   <commonPictures>CommonPicture.ЗагрузкаФайла100</commonPictures>
   <commonModules>CommonModule.ОсновнойТекстHTMLСервер</commonModules>
+  <commonModules>CommonModule.ОбщийМодульСервер</commonModules>
   <catalogs>Catalog.Заметки</catalogs>
   <catalogs>Catalog.ЗаметкиФайлы</catalogs>
   <catalogs>Catalog.Лекции</catalogs>
