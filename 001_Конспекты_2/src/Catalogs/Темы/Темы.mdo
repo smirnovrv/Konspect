@@ -31,22 +31,6 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Темы.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="f0e38bf0-e21d-4bbe-ad0c-d04024d0e8d1">
-    <name>Лекция</name>
-    <synonym>
-      <key>ru</key>
-      <value>Лекция</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Лекции</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="cc2487aa-b7ef-475b-be67-13ca7c398020">
     <name>ЗаполнятьАвтоматически</name>
     <synonym>
