@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа1</v8:content>
+				</v8:item>
+			</Title>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="11"/>
+			<ChildItems>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<CheckBoxField name="ЗаполнятьАвтоматически" id="12">
+					<DataPath>Объект.ЗаполнятьАвтоматически</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЗаполнятьАвтоматическиКонтекстноеМеню" id="13"/>
+					<ExtendedTooltip name="ЗаполнятьАвтоматическиРасширеннаяПодсказка" id="14"/>
+					<Events>
+						<Event name="OnChange">ЗаполнятьАвтоматическиПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа2</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="35"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Лекция" id="7">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЛекцияКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ЛекцияРасширеннаяПодсказка" id="9"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа3" id="36">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Содержание</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Collapsible</Behavior>
+			<CollapsedRepresentationTitle>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Содержание</v8:content>
+				</v8:item>
+			</CollapsedRepresentationTitle>
+			<Collapsed>true</Collapsed>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="37"/>
+			<ChildItems>
+				<Table name="Заметки" id="15">
+					<Representation>List</Representation>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.Заметки</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ЗаметкиКонтекстноеМеню" id="17"/>
+					<AutoCommandBar name="ЗаметкиКоманднаяПанель" id="16">
+						<ChildItems>
+							<Button name="ЗаметкиДозаполнить" id="41">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.Дозаполнить</CommandName>
+								<ExtendedTooltip name="ЗаметкиДозаполнитьРасширеннаяПодсказка" id="42"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ЗаметкиРасширеннаяПодсказка" id="18"/>
+					<SearchStringAddition name="ЗаметкиСтрокаПоиска" id="19">
+						<AdditionSource>
+							<Item>Заметки</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ЗаметкиСтрокаПоискаКонтекстноеМеню" id="20"/>
+						<ExtendedTooltip name="ЗаметкиСтрокаПоискаРасширеннаяПодсказка" id="21"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ЗаметкиСостояниеПросмотра" id="25">
+						<AdditionSource>
+							<Item>Заметки</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ЗаметкиСостояниеПросмотраКонтекстноеМеню" id="26"/>
+						<ExtendedTooltip name="ЗаметкиСостояниеПросмотраРасширеннаяПодсказка" id="27"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ЗаметкиУправлениеПоиском" id="22">
+						<AdditionSource>
+							<Item>Заметки</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ЗаметкиУправлениеПоискомКонтекстноеМеню" id="23"/>
+						<ExtendedTooltip name="ЗаметкиУправлениеПоискомРасширеннаяПодсказка" id="24"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="ЗаметкиНомерСтроки" id="28">
+							<DataPath>Объект.Заметки.LineNumber</DataPath>
+							<ContextMenu name="ЗаметкиНомерСтрокиКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="ЗаметкиНомерСтрокиРасширеннаяПодсказка" id="30"/>
+						</InputField>
+						<InputField name="ЗаметкиЗаметка" id="31">
+							<DataPath>Объект.Заметки.Заметка</DataPath>
+							<ContextMenu name="ЗаметкиЗаметкаКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="ЗаметкиЗаметкаРасширеннаяПодсказка" id="33"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+				<HTMLDocumentField name="ОсновнойТекст" id="38">
+					<DataPath>Объект.ОсновнойТекст</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ContextMenu name="ОсновнойТекстКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ОсновнойТекстРасширеннаяПодсказка" id="40"/>
+				</HTMLDocumentField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Темы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Дозаполнить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дозаполнить</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Дозаполнить</Action>
+		</Command>
+	</Commands>
+</Form>

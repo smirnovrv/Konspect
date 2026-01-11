@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="9676fe11-545f-44e9-861a-b3b5eb554472">
+		<Name>a</Name>
+		<Code>000000001</Code>
+		<Description>a</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0f7b7a1f-4480-4440-92d1-05ff8d76fabc">
+		<Name>File</Name>
+		<Code>000000002</Code>
+		<Description>File</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d0988867-f6b0-42a8-b02d-ca954431c300">
+		<Name>H1</Name>
+		<Code>000000003</Code>
+		<Description>H1</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d6b1624c-1171-472a-9b88-b0e65f8b973f">
+		<Name>H2</Name>
+		<Code>000000004</Code>
+		<Description>H2</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="11ac03a1-6004-469a-8d69-f6cbef8b1187">
+		<Name>H3</Name>
+		<Code>000000005</Code>
+		<Description>H3</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3737b7b4-1920-4d8c-a729-96437f0213cf">
+		<Name>H4</Name>
+		<Code>000000006</Code>
+		<Description>H4</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d2c14440-66d2-4303-a357-57446f133401">
+		<Name>H5</Name>
+		<Code>000000007</Code>
+		<Description>H5</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8d704ef2-435a-4b2d-8436-9180c7611e9f">
+		<Name>H6</Name>
+		<Code>000000008</Code>
+		<Description>H6</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ef601a28-5a17-49bb-a9ca-2e055f5b57cb">
+		<Name>img</Name>
+		<Code>000000009</Code>
+		<Description>Img</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fbaaff07-3b2a-4ae1-b138-6c271f0319c2">
+		<Name>Label</Name>
+		<Code>000000010</Code>
+		<Description>Label</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="be76ef53-fbf0-4d32-ae81-6810aa630a80">
+		<Name>li</Name>
+		<Code>000000011</Code>
+		<Description>li</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="77d461ec-2cd6-4901-82fe-118849c0a635">
+		<Name>p</Name>
+		<Code>000000012</Code>
+		<Description>p</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ad332f93-a775-4472-99e5-771f4f86b9e9">
+		<Name>ul</Name>
+		<Code>000000013</Code>
+		<Description>ul</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ee4706bc-56e0-45a6-9a02-f753e873f902">
+		<Name>ol</Name>
+		<Code>000000014</Code>
+		<Description>ol</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
