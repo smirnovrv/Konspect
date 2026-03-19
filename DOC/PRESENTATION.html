@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Конспекты25 — презентация</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --border: #1f2937;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .title {
+      text-align: center;
+      margin-bottom: 24px;
+      border: 1px solid var(--border);
+      background: var(--card);
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .title h1 {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 36px;
+    }
+    .title p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+    .slide {
+      border: 1px solid var(--border);
+      background: var(--card);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 16px;
+      page-break-after: always;
+    }
+    .slide h2 {
+      margin-top: 0;
+      color: var(--accent);
+      font-size: 24px;
+    }
+    .slide ul, .slide ol {
+      margin: 10px 0 0 24px;
+    }
+    .footer {
+      margin-top: 24px;
+      border: 1px solid var(--border);
+      background: var(--card);
+      border-radius: 12px;
+      padding: 16px 20px;
+      color: var(--muted);
+    }
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      color: #0b1220;
+      background: var(--accent);
+      border-radius: 999px;
+      padding: 2px 8px;
+      margin-bottom: 8px;
+    }
+    @media print {
+      body {
+        background: white;
+        color: black;
+      }
+      .title, .slide, .footer {
+        border: 1px solid #ddd;
+        background: white;
+      }
+      .title h1, .slide h2 {
+        color: black;
+      }
+      .title p, .footer {
+        color: #555;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="title">
+      <h1>Конспекты25</h1>
+      <p>Презентация по конфигурации</p>
+    </section>
+
+    <section class="slide">
+      <span class="badge">Слайд 1</span>
+      <h2>Что это за система</h2>
+      <ul>
+        <li>Конспекты25 — конфигурация для ведения учебных и рабочих конспектов.</li>
+        <li>Система хранит заметки, темы, теги, лекции и связанные файлы.</li>
+        <li>Основная цель: быстро фиксировать знания и удобно находить их позже.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <span class="badge">Слайд 2</span>
+      <h2>Кому полезна</h2>
+      <ul>
+        <li>Студентам для конспектов по предметам и лекциям.</li>
+        <li>Преподавателям для подготовки материалов.</li>
+        <li>Специалистам для базы знаний по проектам.</li>
+        <li>Всем, кому нужен структурированный архив заметок.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <span class="badge">Слайд 3</span>
+      <h2>Ключевые объекты</h2>
+      <ul>
+        <li><b>Заметки</b> — основной контент.</li>
+        <li><b>ЗаметкиФайлы</b> — вложения к заметкам.</li>
+        <li><b>Темы</b> — группировка материалов.</li>
+        <li><b>Тэги</b> — быстрые метки для поиска.</li>
+        <li><b>Лекции</b> — каталог лекционных записей.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <span class="badge">Слайд 4</span>
+      <h2>Основной сценарий работы</h2>
+      <ol>
+        <li>Создать заметку.</li>
+        <li>Заполнить тему и основной текст.</li>
+        <li>Добавить теги.</li>
+        <li>Добавить примечания (при необходимости).</li>
+        <li>Прикрепить файл (если нужен).</li>
+        <li>Сохранить и использовать в дальнейшей работе.</li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <span class="badge">Слайд 5</span>
+      <h2>Структура заметки</h2>
+      <ul>
+        <li>Поля: <code>Тема</code>, <code>ОсновнойТекст</code>.</li>
+        <li>Табличная часть <code>Состав</code>: <code>Тэг</code>, <code>Значение</code>, <code>Картинка</code>, <code>Ширина</code>, <code>Высота</code>.</li>
+        <li>Табличная часть <code>Примечания</code>: <code>id</code>, <code>Вид</code>, <code>Текстовка</code>.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <span class="badge">Слайд 6</span>
+      <h2>Примечания и типы</h2>
+      <ul>
+        <li>Типы примечаний: <code>Определение</code>, <code>Комментарий</code>, <code>Описание</code>, <code>Фрагмент</code>.</li>
+        <li>Рекомендуется выносить определения отдельно.</li>
+        <li>Комментарии делать короткими.</li>
+        <li>Фрагменты использовать для цитат.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <span class="badge">Слайд 7</span>
+      <h2>Работа с вложениями</h2>
+      <ul>
+        <li>Вложения хранятся в <code>ЗаметкиФайлы</code>.</li>
+        <li>Для каждого файла сохраняются: содержимое в хранилище, расширение, владелец, дата создания.</li>
+        <li>Это помогает хранить первоисточники рядом с конспектом.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <span class="badge">Слайд 8</span>
+      <h2>Роль тем и тегов</h2>
+      <ul>
+        <li><code>Темы</code> формируют разделы и направления знаний.</li>
+        <li><code>Тэги</code> дают гибкую классификацию.</li>
+        <li>Вместе они позволяют строить структуру по разделам и делать быстрый тематический поиск.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <span class="badge">Слайд 9</span>
+      <h2>Форматирование контента</h2>
+      <ul>
+        <li>Поддерживаются элементы HTML-структуры.</li>
+        <li>Используются виды списков, уровни заголовков и типы маркировки.</li>
+        <li>Это улучшает читаемость длинных заметок.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <span class="badge">Слайд 10</span>
+      <h2>Преимущества для пользователя</h2>
+      <ul>
+        <li>Единое место хранения знаний.</li>
+        <li>Быстрый доступ к материалам по теме.</li>
+        <li>Снижение потерь информации.</li>
+        <li>Повторное использование накопленного опыта.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <span class="badge">Слайд 11</span>
+      <h2>Пример практического использования</h2>
+      <ul>
+        <li>Сценарий: подготовка к экзамену.</li>
+        <li>Создать тему по предмету и завести заметки по каждому билету.</li>
+        <li>Добавить определения в примечания и прикрепить PDF/презентации.</li>
+        <li>Фильтровать материалы по тегам.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <span class="badge">Слайд 12</span>
+      <h2>Рекомендации по внедрению</h2>
+      <ul>
+        <li>Согласовать единый шаблон именования заметок.</li>
+        <li>Использовать фиксированный набор ключевых тегов.</li>
+        <li>Проводить регулярную чистку дубликатов.</li>
+        <li>Обучить пользователей базовому сценарию (15-20 минут).</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <span class="badge">Слайд 13</span>
+      <h2>План развития</h2>
+      <ul>
+        <li>Добавить шаблоны заметок по типам задач.</li>
+        <li>Внедрить стандарты заполнения примечаний.</li>
+        <li>Подготовить печатные и экспортные формы.</li>
+        <li>Расширить аналитику по использованию базы знаний.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <span class="badge">Слайд 14</span>
+      <h2>Итог</h2>
+      <ul>
+        <li>Конспекты25 закрывает задачу системного ведения конспектов.</li>
+        <li>Конфигурация уже содержит основу для масштабирования.</li>
+        <li>Следующий шаг — стандартизировать процесс работы пользователей.</li>
+      </ul>
+    </section>
+
+    <section class="footer">
+      <div>Дополнительные материалы:</div>
+      <div><code>DOC/CONFIGURATION_DESCRIPTION.md</code></div>
+      <div><code>DOC/USER_GUIDE.md</code></div>
+    </section>
+  </div>
+</body>
+</html>
